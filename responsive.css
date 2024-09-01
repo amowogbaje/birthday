@@ -1,0 +1,38 @@
+/* Add this to your stylesheet.css file */
+@media only screen and (max-width: 767px) {
+    .cake {
+        transform: scale(0.8); /* Resize the cake */
+    }
+
+    .balloons h2 {
+        font-size: 24px; /* Smaller font size for smaller screens */
+    }
+
+    .banner {
+        max-width: 80%; /* Resize banner */
+        height: auto;
+    }
+
+    .message p {
+        font-size: 14px; /* Smaller font for text */
+    }
+
+    .navbar .btn {
+        margin-bottom: 5px; /* Add space between buttons */
+        font-size: 12px; /* Smaller buttons */
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .cake {
+        transform: scale(0.9); /* Slightly smaller cake */
+    }
+
+    .balloons h2 {
+        font-size: 28px; /* Adjust font size for medium screens */
+    }
+
+    .message p {
+        font-size: 16px; /* Adjust text size for medium screens */
+    }
+}
